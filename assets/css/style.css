@@ -1,0 +1,228 @@
+
+/* Creating Border */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Defining Body Background Color */
+body {
+    background-color: #d9dcd6;
+}
+
+/* Header background color, font, and text color */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+
+  
+}
+
+/* Header display location and text color */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* seo color */
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* Formatting the nav top, right-aligned, font family and font size */
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* Formatting the nav to NOT be in list/ bullet form */
+.header nav ul {
+    list-style-type: none;
+}
+
+/* nav list in-line and alignment */
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* List color in White, no additional font design changes */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Paragraph font size */
+p {
+    font-size: 16px;
+}
+
+/* Hero Image and size specifications */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Define margin left */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Define margin right */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Section 1, content class formatting */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Section 1, Article 1, SEO specification */
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* Section 1, Article 1, SEO Image Specs */
+.search-engine-optimization img {
+    max-height: 200px;
+}
+/* Section 1, Article 1, SEO Text Format */
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+
+/* Section 1, Article 2, Online Rep Management specification */
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* Section 1, Article 2, Online Rep Management Image Specs */
+.online-reputation-management img {
+    max-height: 200px;
+}
+/* Section 1, Article 2, Online Rep Management Text Format */
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Section 1, Article 3, Social Media Marketing specification */
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* Section 1, Article 3, Social Media Marketing Image Specs */
+.social-media-marketing img {
+    max-height: 200px;
+}
+/* Section 1, Article 3, Social Media Marketing Text Format */
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Section 2, content class benefits */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* Benefit Lead Title, Center */
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* Benefit Lead Image */
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* Benefit Lead Text, Bottom */
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Benefit Brand Awareness Title, Center*/
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* Benefit Brand Awareness Image*/
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* Benefit Brand Awareness Text, Bottom */
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Benefit Cost Management Title, Center*/
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* Benefit Cost Management Image*/
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* Benefit Cost Management Text, Bottom*/
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+
+/*Footer Overhanging Properties*/
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/*Footer Top Text*/
+.footer h2 {
+    font-size: 20px;
+}
